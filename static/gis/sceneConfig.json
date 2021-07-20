@@ -1,0 +1,19 @@
+{
+    "imageryProviders": [
+       {
+          "name": "global_dom",
+          "id": "413c0a1c-b6b3-4970-8a9c-35ac3bd4a679",
+          "sourceType": "arcgis",
+          "url":"https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer"
+       }
+    ],
+    "terrainProviders": [
+       {
+          "name": "globe_dem",
+          "id": "b984d855-8925-49ff-9b88-3e289b066554",
+          "sourceType": "ude",
+          "enable": false,
+          "url": "http://119.29.68.43/map_data/dem/dem_globe_v3/"
+       }
+    ]
+ }

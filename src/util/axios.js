@@ -18,12 +18,6 @@ service.interceptors.request.use(
     } else {
       config.headers['Authorization'] = token
     }
-    if (sessionStorage.getItem('lang') === 'zh') {
-      config.headers['lang'] = 'zh_CN'
-    } else {
-      config.headers['lang'] = 'en_US'
-    }
-
     return config
   },
   error => {
